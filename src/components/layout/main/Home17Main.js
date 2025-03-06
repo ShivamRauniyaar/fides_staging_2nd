@@ -133,13 +133,13 @@ const Home17Main = () => {
 
       {/* <Brands2 isRotate={true} /> */}
       <About2 />
-      <Testimonials2 />
+      {/* <Testimonials2 /> */}
       <Services2
         service={2}
         isBg={true}
         title={"We are providing following services available."}
       />
-      <Offer2
+      {/* <Offer2
         img={aboutHrImage}
         title={"RESOURCE PLANNING, SIMPLE TOOLS, POWERFUL EFFECTS."}
         tag="What we Offer"
@@ -154,7 +154,7 @@ const Home17Main = () => {
       <Testimonials2 />
       <Pricing plan={2} tag={"Price & Planning"} isGrdient={true} />
       <Blogs2 />
-      {isOnepage ? <Contact1 pt={true} /> : ""}
+      {isOnepage ? <Contact1 pt={true} /> : ""} */}
     </main>
   );
 };
